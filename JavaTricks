@@ -1,0 +1,18 @@
+Using redirects '<' and '>'. 
+The redirect '<', takes the data from the System.in stream and puts it in a file. 
+
+For example: 
+when you run your java program: 
+YouName$ java sort < data.txt 
+ and your sort.java, you have a :
+ java.io.BufferedReader stdIn = new java.io.BufferedReader(new java.io.InputStreamReader(System.in ));
+ or
+ Scanner input = new Scanner (System.in); 
+ then, the data will be coming from the file data.txt to your program to process it or do whatever you want to do with it.
+On the other hand, If you have the following redirect: 
+YouName$ java sort < data.txt > out.txt
+then in this case , if you have the follwoing line of code. 
+
+System.setOut(System.out);
+
+so, after finishing running the program, the the redirect will send the data from the file to the out.txt. it is a very useful tool.
