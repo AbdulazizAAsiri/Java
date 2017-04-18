@@ -8,7 +8,7 @@ YouName$ java sort < data.txt
  java.io.BufferedReader stdIn = new java.io.BufferedReader(new java.io.InputStreamReader(System.in ));
  or
  Scanner input = new Scanner (System.in); 
- then, the data will be coming from the file data.txt to your program to process it or do whatever you want to do with it.
+ then, the data will be coming from the file data.txt to your program to process it or do whatever you want to do with it, maybe storing the data in data structure such as an array , or arraylist.
 On the other hand, If you have the following redirect: 
 YouName$ java sort < data.txt > out.txt
 then in this case , if you have the follwoing line of code. 
