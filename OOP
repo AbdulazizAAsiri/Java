@@ -1,0 +1,7 @@
+object oriented programming main concepts.
+The use of 'this' key word in java or other languages. 
+
+The best example the shows a great use of this key word is when  'caculating distance' function.
+
+This function passes as argument , an object of Country class. This object represents a country in the world and has member vars that 
+represents.
